@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidebar Dan Tata Letak</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .layout {
+            display: flex;
+            min-height: 400px;
+        }
+
+        #sidebar {
+            width: 25%;
+            background-color: #222222;
+            color: white;
+            padding: 20px;
+        }
+
+        #sidebar nav {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        #sidebar a {
+            color: white;
+            text-decoration: none;
+        }
+
+        #sidebar a:hover {
+            color: #ffcc66;
+        }
+
+        .main-content {
+            width: 75%;
+            padding: 30px;
+        }
+
+        .main-content h1 {
+            color: #222222;
+        }
+
+        .main-content p {
+            color: #444444;
+            line-height: 1.6;
+        }
+
+        footer {
+            text-align: center;
+            padding: 14px;
+            background-color: #dddddd;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="layout">
+
+        <aside id="sidebar">
+            <h3>Menu</h3>
+
+            <nav>
+                <a href="/pages/Profile.html">Profil</a>
+                <a href="/pages/Gallery.html">Proyek</a>
+                <a href="/pages/about.html">Tentang Saya</a>
+                <a href="/pages/Contact.html">Kontak</a>
+            </nav>
+        </aside>
+
+        <main class="main-content">
+            <h1>Halo, Saya Gilbert Christian Che</h1>
+
+            <p>
+                Halo, saya Gilbert Christian Che, siswa kelas X TKJ 2
+                dari sekolah SMK Kristen Immanuel Pontianak. Saya sedang belajar
+                membuat website pakai HTML dan CSS.
+            </p>
+
+            <p>
+                Saya tertarik dengan dunia coding dan sudah membuat
+                proyek, seperti logo Art&Creativity dan
+            </p>
+
+            <p>
+                Gunakan menu di sebelah kiri untuk melihat profil,
+                proyek, tentang saya, dan formulir kontak saya.
+            </p>
+        </main>
+
+    </div>
+
+    <footer>
+        <a href="/components/Button-set.html">Kembali ke Beranda</a>
+    </footer>
+
+</body>
+</html>
