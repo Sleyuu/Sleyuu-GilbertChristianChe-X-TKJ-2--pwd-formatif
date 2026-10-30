@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tombol</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f7f8fc;
+      padding: 30px;
+      color: #243a63;
+    }
+
+    h3 {
+      margin: 24px 0 10px;
+    }
+
+    .baris {
+      display: flex;
+      gap: 12px;
+    }
+
+    .btn {
+      padding: 10px 18px;
+      font-size: 13px;
+      font-weight: bold;
+      border: 2px solid transparent;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+
+    /* Tombol utama */
+    .btn-utama {
+      background: #243a63;
+      color: #ffffff;
+    }
+    .btn-utama:hover,
+    .btn-utama.hover {
+      background: #16264a;
+    }
+
+    /* Tombol sekunder */
+    .btn-sekunder {
+      background: #dfe6f1;
+      color: #243a63;
+    }
+    .btn-sekunder:hover,
+    .btn-sekunder.hover {
+      background: #c3d0e6;
+    }
+
+    /* Tombol outline */
+    .btn-outline {
+      background: #ffffff;
+      color: #243a63;
+      border-color: #16264a;
+    }
+    .btn-outline:hover,
+    .btn-outline.hover {
+      background: #44469f;
+    }
+
+    /* Tombol aksen */
+    .btn-aksen {
+      background: #e8963f;
+      color: #ffffff;
+    }
+    .btn-aksen:hover,
+    .btn-aksen.hover {
+      background: #2f00ff;
+    }
+
+    a {
+      color: #5b21b6;
+      font-size: 13px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="baris">
+    <button class="btn btn-utama">Lihat Proyek</button>
+    <button class="btn btn-sekunder">Unduh CV</button>
+    <button class="btn btn-outline">Hubungi Saya</button>
+    <button class="btn btn-aksen">Kirim Pesan</button>
+  </div>
+
+  <p style="margin-top: 40px;"><a href="https://www.youtube.com/">Kembali ke Beranda</a></p>
