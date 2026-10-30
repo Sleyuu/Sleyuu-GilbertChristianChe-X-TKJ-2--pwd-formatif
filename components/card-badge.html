@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kartu Proyek dengan Label</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+
+        #top {
+            padding: 20px;
+            background-color: #222222;
+            color: white;
+        }
+
+        .card {
+            position: relative;
+            box-sizing: border-box;
+            width: 360px;
+            margin: 30px auto;
+            padding: 15px;
+            border: 1px solid #cccccc;
+            background-color: white;
+            border-radius: 10px;
+        }
+
+        .card img {
+            display: block;
+            width: 100%;
+            height: 160px;
+            object-fit: contain;
+        }
+
+        .card .badge {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: crimson;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 6px;
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+        .card h3 {
+            color: #333333;
+        }
+
+        .card p {
+            font-size: 15px;
+            line-height: 1.5;
+        }
+
+        main p {
+            width: 360px;
+            max-width: calc(100% - 32px);
+            margin: 16px auto;
+            line-height: 1.6;
+        }
+
+        .back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1000;
+            padding: 12px 18px;
+            background-color: navy;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+        }
+
+        .back-to-top:hover {
+            background-color: crimson;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #dddddd;
+        }
+    </style>
+</head>
+<body>
+
+    <header id="top">
+        <h1>Proyek Saya</h1>
+    </header>
+
+    <main>
+        <div class="card">
+            <img src="/Asset/Images/ArtCreativity.png"
+                 alt="Logo Art">
+
+            <span class="badge">BARU</span>
+
+            <h3>Proyek Gemar Menggambar</h3>
+
+            <p>
+             Saya membuat logo Art&Creativity untuk melatih menggambar dan creativitas saya
+            </p>
+        </div>
+
+        <p>
+            Saya membuat proyek ini untuk membantu orang yang pandai menggambar bisa berkreasi
+        </p>
+
+        <p>
+            Saya menggunakan warna hijau karna supaya kelihatannya lebih fresh
+        </p>
+
+        <p>
+          saya juga menambahkan element yang berhubungan dengan berkreasi
+        </p>
+
+        <p>
+            Proyek ini membantu saya yang suka menggambar dan desain
+        </p>
+
+        <p>
+            Saya ingin terus meningkatkan kemampuan desain dan
+            pemrograman saya.
+        </p>
+
+        <p>
+            Ke depannya, saya ingin membuat lebih banyak proyek
+            kreatif yang bermanfaat.
+        </p>
+    </main>
+
+    <footer>
+        <a href="/components/card.html">Kembali ke Beranda</a>
+    </footer>
+
+    <a href="#top" class="back-to-top">Ke Atas</a>
+
+</body>
+</html>
